@@ -1,0 +1,9 @@
+@font-face {
+    font-family: chillax;
+    src: url("../src/Chillax-Variable.ttf");
+}
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@theme{
+    --font-chillax: chillax;
+}
