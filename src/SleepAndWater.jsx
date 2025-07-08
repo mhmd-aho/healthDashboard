@@ -26,19 +26,19 @@ export default function SleepAndWater(props) {
             }
         const handleOnChangeHydration = e =>{
             const hydrationInput = e.target.value
-        if (hydrationInput <= 0.5){
+        if (hydrationInput <= 2){
             hydration = 1;
             }
-        else if(hydrationInput> 0.5 && hydrationInput <= 1 ){
+        else if(hydrationInput > 2 && hydrationInput <= 4 ){
             hydration = 2;
         }
-        else if(hydrationInput > 1 && hydrationInput <= 1.6){
+        else if(hydrationInput > 4 && hydrationInput <= 6){
             hydration = 3;
         }
-        else if(hydrationInput > 1.6 && hydrationInput < 2){
+        else if(hydrationInput > 6 && hydrationInput < 8){
             hydration = 4;
         }
-        else if(hydrationInput >= 2){
+        else if(hydrationInput >= 8){
             hydration = 5;
         }
         }
@@ -72,7 +72,7 @@ export default function SleepAndWater(props) {
                     <>
                         <div className="flex w-3/4" >
                             <input min={0} onChange={handleOnChangeHydration} type="number" name="water" id="water" className="border rounded-lg"/>
-                            <span className="text-gray-500" >Liter</span>
+                            <span className="text-gray-500" >Glasses</span>
                         </div>
                         <input type="submit" className="px-2 sm:px-0 rounded bg-blue-500 text-white cursor-pointer hover:bg-blue-500/80 duration-500"/>
                     </>

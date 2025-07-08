@@ -6,7 +6,7 @@ A responsive, interactive wellness dashboard built with **React.js** and **Chart
 
 - ✅ **Mood Tracker** – Select your daily mood using expressive icons.
 - 💤 **Sleep Tracker** – Log your hours of sleep and get qualitative feedback.
-- 💧 **Hydration Tracker** – Record water intake (in liters) and track hydration levels.
+- 💧 **Hydration Tracker** – Record water intake (in glasses) and track hydration levels.
 - 🏃 **Exercise Logger** – Enter activity type, duration, and weight to calculate calories burned.
 - 📊 **Visual Charts** – View data with line graphs (mood, exercise, sleep) and a pie chart (calories burned).
 - 🧠 **Daily Insights** – Get simple, motivating tips based on your input data.
