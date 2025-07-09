@@ -56,7 +56,7 @@ export default function SleepAndWater(props) {
                     <p>Sleep hours logged successfully.</p>:
                     <>
                         <div className="flex w-3/4 ">
-                            <input min={0} onChange={handleOnChangeSleep} type="number" name="sleep" id="sleep" className="border rounded-lg" />
+                            <input min={0} onChange={handleOnChangeSleep} type="number" name="sleep" id="sleep" className="border rounded-lg w-1/2" />
                             <span className="text-gray-500" >Hrs</span>
                         </div>
                         <input type="submit" className="px-2 sm:px-1 rounded bg-blue-500 text-white cursor-pointer hover:bg-blue-500/80 duration-500"/>
@@ -71,7 +71,7 @@ export default function SleepAndWater(props) {
                     <p>Water intake logged successfully.</p> :
                     <>
                         <div className="flex w-3/4" >
-                            <input min={0} onChange={handleOnChangeHydration} type="number" name="water" id="water" className="border rounded-lg"/>
+                            <input min={0} onChange={handleOnChangeHydration} type="number" name="water" id="water" className="border rounded-lg w-1/2"/>
                             <span className="text-gray-500" >Glasses</span>
                         </div>
                         <input type="submit" className="px-2 sm:px-0 rounded bg-blue-500 text-white cursor-pointer hover:bg-blue-500/80 duration-500"/>

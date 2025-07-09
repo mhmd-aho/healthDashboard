@@ -64,7 +64,7 @@ export default function Exercise(props){
             <p className='m-auto text-xl'>Exercise logged successfully.</p>:
             <>
                 <form onSubmit={handleSubmit}  className="flex flex-col gap-3 items-center w-full">
-                    <div className="self-baseline flex items-center gap-2 w-full h-9 text-base">
+                    <div className="self-baseline flex items-center sm:gap-2 gap-1 w-full h-9 text-sm sm:text-base">
                         <input onChange={e=>props.setMins(e.target.value)} min={0} type="number" className="border px-1 rounded-lg w-1/3 h-full" placeholder="duration"/>
                         <span className="text-gray-500">mins</span>
                         <input onChange={e=>props.setWeight(e.target.value)} min={0} type="number" className="border px-1 rounded-lg w-1/3 h-full" placeholder="Weight"/>
